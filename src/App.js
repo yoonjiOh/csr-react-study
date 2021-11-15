@@ -1,27 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import {Helmet} from "react-helmet";
+import Depth1 from './render-order/depth1';
+// import Depth2 from './render-order/depth2';
+// import Depth3 from './render-order/depth3';
+
 
 function App() {
   return (
     <div className="App">
       <Helmet htmlAttributes={{ lang: 'ko'}}>
-        <title>??</title>
+        <title>study</title>
       </Helmet>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Depth1 />
     </div>
   );
 }

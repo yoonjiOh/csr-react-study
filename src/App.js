@@ -1,9 +1,7 @@
 import './App.css';
 import {Helmet} from "react-helmet";
 import Depth1 from './render-order/depth1';
-// import Depth2 from './render-order/depth2';
-// import Depth3 from './render-order/depth3';
-
+import RedRectangle from './canvas/RedRectangle';
 
 function App() {
   return (
@@ -11,7 +9,7 @@ function App() {
       <Helmet htmlAttributes={{ lang: 'ko'}}>
         <title>study</title>
       </Helmet>
-      <Depth1 />
+      <RedRectangle />
     </div>
   );
 }
